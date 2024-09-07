@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { colors } from '../styles/colors';
 import { fonts } from '../styles/typography';
-// import { Timeline, TimelineEvent } from '@mailtop/horizontal-timeline'
+import { Timeline, TimelineEvent } from '@mailtop/horizontal-timeline'
 import { FaBug, FaRegCalendarCheck, FaRegFileAlt } from 'react-icons/fa'
 
 import { IoSchoolOutline } from "react-icons/io5";
@@ -14,7 +14,7 @@ export function Experience() {
         <Title>Experience and  Education</Title>
         
         
-        {/* <Timeline minEvents={5} placeholder>
+        <Timeline minEvents={5} placeholder>
             <TimelineEvent
                 color='#9c2919'
                 icon={IoSchoolOutline}
@@ -53,7 +53,7 @@ export function Experience() {
                 title={<TitleElement>Software Analyst</TitleElement>}
                 subtitle={<TitleElement>2024</TitleElement>}
             />
-        </Timeline> */}
+        </Timeline>
 
         </Main>  
     );

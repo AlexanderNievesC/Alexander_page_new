@@ -12,6 +12,7 @@
     "primereact": "^10.8.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-horizontal-timeline": "^1.5.3",
     "react-icons": "^5.3.0",
     "react-mindmap": "^2.1.6",
     "react-scripts": "^3.0.1",
@@ -41,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
