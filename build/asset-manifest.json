@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/Alexander_page_new/static/js/main.a0e1125e.chunk.js",
-    "main.js.map": "/Alexander_page_new/static/js/main.a0e1125e.chunk.js.map",
+    "main.js": "/Alexander_page_new/static/js/main.286d9ef3.chunk.js",
+    "main.js.map": "/Alexander_page_new/static/js/main.286d9ef3.chunk.js.map",
     "runtime-main.js": "/Alexander_page_new/static/js/runtime-main.638c28db.js",
     "runtime-main.js.map": "/Alexander_page_new/static/js/runtime-main.638c28db.js.map",
     "static/js/2.176fadfb.chunk.js": "/Alexander_page_new/static/js/2.176fadfb.chunk.js",
     "static/js/2.176fadfb.chunk.js.map": "/Alexander_page_new/static/js/2.176fadfb.chunk.js.map",
     "index.html": "/Alexander_page_new/index.html",
-    "precache-manifest.9344673fdead85a7a3620f71df6bcee2.js": "/Alexander_page_new/precache-manifest.9344673fdead85a7a3620f71df6bcee2.js",
+    "precache-manifest.658304b096069af42b6b43dc35886ead.js": "/Alexander_page_new/precache-manifest.658304b096069af42b6b43dc35886ead.js",
     "service-worker.js": "/Alexander_page_new/service-worker.js",
     "static/js/2.176fadfb.chunk.js.LICENSE.txt": "/Alexander_page_new/static/js/2.176fadfb.chunk.js.LICENSE.txt",
     "static/media/doable.png": "/Alexander_page_new/static/media/doable.af455554.png",
@@ -22,6 +22,6 @@
   "entrypoints": [
     "static/js/runtime-main.638c28db.js",
     "static/js/2.176fadfb.chunk.js",
-    "static/js/main.a0e1125e.chunk.js"
+    "static/js/main.286d9ef3.chunk.js"
   ]
 }
