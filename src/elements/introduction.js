@@ -21,7 +21,7 @@ export function Introduction () {
                 <Intro>
                     <Title>Hi, I'm Alexander</Title>
                     <Subtitle>I develop full-stack web applications</Subtitle>
-                    <a href="https://AlexanderNievesC.github.io/Alexander_page_new/cv_alexander_nieves.pdf" download="Alexander_Nieves_CV.pdf">
+                    <a href="https://AlexanderNievesC.github.io/Alexander_page_new/cv_alexander_nieves.pdf">
                         <Button>Get my CV</Button> 
                     </a>             
                 </Intro>
