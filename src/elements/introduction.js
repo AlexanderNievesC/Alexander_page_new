@@ -19,7 +19,7 @@ export function Introduction () {
                 <Intro>
                     <Title>Hi, I'm Alexander</Title>
                     <Subtitle>I develop full-stack web applications</Subtitle>
-                    <a href="/cv_alexander_nieves.pdf" download="Alexander_Nieves_CV.pdf">
+                    <a href={`${process.env.PUBLIC_URL}/cv_alexander_nieves.pdf`} download="Alexander_Nieves_CV.pdf">
                         <Button>Get my CV</Button> 
                     </a>
                 </Intro>
