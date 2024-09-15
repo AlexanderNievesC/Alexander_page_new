@@ -13,15 +13,18 @@ const iconStyle = {
 };
 
 export function Introduction () {
+
+    
     return (
         <div>
             <Main>
                 <Intro>
                     <Title>Hi, I'm Alexander</Title>
                     <Subtitle>I develop full-stack web applications</Subtitle>
-                    <a href={`${process.env.PUBLIC_URL}/cv_alexander_nieves.pdf`} download="Alexander_Nieves_CV.pdf">
+                    <a href="/Alexander_page_new/cv_alexander_nieves.pdf" download="Alexander_Nieves_CV.pdf">
                         <Button>Get my CV</Button> 
                     </a>
+                    
                 </Intro>
                 <img src={lines} style={{width:'100%', opacity:'0.8'}} alt="Background Lines"/> 
             </Main>
