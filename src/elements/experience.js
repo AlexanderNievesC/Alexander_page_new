@@ -2,58 +2,87 @@ import React from 'react';
 import styled from 'styled-components';
 import { colors } from '../styles/colors';
 import { fonts } from '../styles/typography';
-import { Timeline, TimelineEvent } from '@mailtop/horizontal-timeline'
-import { FaBug, FaRegCalendarCheck, FaRegFileAlt } from 'react-icons/fa'
-
-import { IoSchoolOutline } from "react-icons/io5";
+import { FaBug, FaRegCalendarCheck } from 'react-icons/fa'
+import { LuSchool } from "react-icons/lu";
 import { MdWork } from "react-icons/md";
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+
 
 export function Experience() {
+
     return (
     <Main>
-        <Title>Experience and  Education</Title>
+      <Titles>Experience and  Education</Titles>
         
-        
-        <Timeline minEvents={5} placeholder>
-            <TimelineEvent
-                color='#9c2919'
-                icon={IoSchoolOutline}
-                title={<TitleElement>Mining Engineer</TitleElement>}
-                subtitle={<TitleElement>2011-2015</TitleElement>}
-            />
-            <TimelineEvent
-                color='#87a2c7'
-                icon={MdWork }
-                title={<TitleElement>Analyst</TitleElement>}
-                subtitle={<TitleElement>2017-2018</TitleElement>}
-            />
-            <TimelineEvent
-                color='#9c2919'
-                icon={IoSchoolOutline}
-                title={<TitleElement>Data Architect</TitleElement>}
-                subtitle={<TitleElement>2020-2023</TitleElement>}
-                // action={{
-                // label: 'Ver detalhes...',
-                // onClick: () => window.alert('Erro!')
-                // }}
-            />
-            <TimelineEvent
-                color='#9c2919'
-                icon={IoSchoolOutline}
-                title={<TitleElement>Full Stack Developer</TitleElement>}
-                subtitle={<TitleElement>2023</TitleElement>}
-                // action={{
-                // label: 'Ver detalhes...',
-                // onClick: () => window.alert('Erro!')
-                // }}
-            />
-            <TimelineEvent
-                color='#87a2c7'
-                icon={MdWork}
-                title={<TitleElement>Software Analyst</TitleElement>}
-                subtitle={<TitleElement>2024</TitleElement>}
-            />
-        </Timeline>
+      <VerticalTimeline>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+          date="2011 - 2015"
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={<LuSchool />}
+        >
+          <h3 className="vertical-timeline-element-title">Mining Engineer</h3>
+          <h4 className="vertical-timeline-element-subtitle">Arequipa,PE</h4>
+          <p>
+            Universidad Nacional de San Agustin
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2017 - 2018"
+          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+          icon={<MdWork />}
+        >
+          <h3 className="vertical-timeline-element-title">Analyst</h3>
+          <h4 className="vertical-timeline-element-subtitle">Arequipa, PE</h4>
+          <p>
+            Gobierno Regional de Arequipa
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2020-2022"
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={<LuSchool />}
+        >
+          <h3 className="vertical-timeline-element-title">Data Architect</h3>
+          <h4 className="vertical-timeline-element-subtitle">Lima, PE</h4>
+          <p>
+            CIBERTEC
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2023"
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={<LuSchool />}
+        >
+          <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
+          <h4 className="vertical-timeline-element-subtitle">Lima, PE</h4>
+          <p>
+            CODEABLE
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2023-2024"
+          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+          icon={<MdWork />}
+        >
+          <h3 className="vertical-timeline-element-title">Software Analyst</h3>
+          <h4 className="vertical-timeline-element-subtitle">Lima,PE</h4>
+          <p>
+            MS4M
+          </p>
+        </VerticalTimelineElement>
+  
+</VerticalTimeline>
 
         </Main>  
     );
@@ -68,10 +97,10 @@ const Main = styled.div`
     justify-content: center;
     background-color: ${colors.purple[10]};
     padding-top:50px;
-    height:700px;
+    height:1500px;
 `
 
-    const Title= styled.div`
+    const Titles= styled.div`
     font-family:${fonts.primary};
     font-weight:700;
     font-size:30px;
