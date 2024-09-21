@@ -21,11 +21,11 @@ export function Introduction () {
                 <Intro>
                     <Title>Hi, I'm Alexander </Title>
                     <Subtitle>I develop full-stack web applications</Subtitle>
-                    <a href="https://AlexanderNievesC.github.io/Alexander_page_new/CV_Alexander_Nieves.pdf" target="_blank" >
+                    <a href="/Alexander_page_new/CV_Alexander_Nieves.pdf" target="_blank" >
                         <Button>Get my CV</Button> 
                     </a>             
                 </Intro>
-                <img src={lines} style={{width:'100%', opacity:'0.8'}} alt="Background Lines"/> 
+                <img src={lines} style={{width:'100%', opacity:'0.8'}} alt="Background Lines"/>
             </Main>
         </div>
     );

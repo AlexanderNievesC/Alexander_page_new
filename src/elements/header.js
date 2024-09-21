@@ -8,35 +8,59 @@ export function TopMenus(){
 
     const scrollToSection = (sectionId) => {
         const element = document.getElementById(sectionId);
-        if (element) {
-            element.scrollIntoView({ 
-                behavior: 'smooth', 
-                block: 'start' 
-            });
-        }
+
+        const headerOffset = 100; // Adjust this value based on your header's height
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+      });
+
+
     };
 
-const [isScrolled, setIsScrolled] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
 
-useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 0);
-    };
+    useEffect(() => {
+        const handleScroll = () => {
+        setIsScrolled(window.scrollY > 0);
+        };
 
-    window.addEventListener('scroll', handleScroll);
+        window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+        return () => {
+        window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+      };
+    
 
 return <TopMenu className={isScrolled ? 'scrolled' : ''}>
 
+
+
 <TextArea>
+
+
+
     <Logo onClick={() => scrollToSection('introduction')}>Alexander</Logo>
-    <Subelement onClick={() => scrollToSection('experience')}>Experience</Subelement>
+    {/* <Subelement onClick={() => scrollToSection('experience')}>Experience</Subelement>
     <Subelement onClick={() => scrollToSection('projects')}>Projects</Subelement>
-    <Subelement onClick={() => scrollToSection('contacts')}>Contact</Subelement>
+    <Subelement onClick={() => scrollToSection('contacts')}>Contact</Subelement> */}
+
+    <Menu>
+        <Subelement onClick={() => scrollToSection('experience')}>Experience</Subelement>
+        <Subelement onClick={() => scrollToSection('projects')}>Projects</Subelement>
+        <Subelement onClick={() => scrollToSection('contacts')}>Contact</Subelement>
+      </Menu>
+    
 </TextArea>
 
 <ButtonZone>
@@ -48,6 +72,19 @@ return <TopMenu className={isScrolled ? 'scrolled' : ''}>
     {/* <Button>Login</Button> */}
     {/* <Button>Sign up</Button> */}
 
+    <HamburgerButton onClick={toggleMenu}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </HamburgerButton>
+
+      
+
+      <MobileMenu isOpen={isOpen}>
+        <Subelement onClick={() => scrollToSection('experience')}>Experience</Subelement>
+        <Subelement onClick={() => scrollToSection('projects')}>Projects</Subelement>
+        <Subelement onClick={() => scrollToSection('contacts')}>Contact</Subelement>
+      </MobileMenu>
 
 </ButtonZone> 
 </TopMenu>
@@ -71,7 +108,7 @@ const TopMenu = styled.div`
     z-index: 9999;
 
     /* Initially, no shadow */
-  box-shadow: none;
+
 
   /* Add shadow when the user scrolls */
   &.scrolled {
@@ -144,6 +181,7 @@ const ButtonZone = styled.div`
     flex-direction:row;
     justify-content:center;
     justify-items:center;
+    align-content:center;
     align-items:center;
     gap:30px;
     padding:20px;
@@ -180,3 +218,49 @@ const Icons= styled.div`
     justify-content:center;
 `
 
+const HamburgerButton = styled.div`
+  display: none; /* Oculto por defecto */
+  flex-direction: column;
+  cursor: pointer;
+
+  span {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px;
+    transition: 0.3s;
+  }
+
+  /* Mostrar el botón en pantallas pequeñas */
+  @media (max-width: 768px) {
+    display: flex;
+  }
+`;
+
+const Menu = styled.nav`
+  display: flex;
+  gap: 20px;
+
+  /* Ocultar el menú en pantallas pequeñas */
+  @media (max-width: 768px) {
+    display: none;
+  }
+`;
+
+const MobileMenu = styled.nav`
+  display: none;
+  flex-direction: column;
+  background-color: ${colors.purple[20]};
+  position: absolute;
+  top: 80px;
+  right: 40px;
+  width: 140px;
+  padding: 20px;
+  border-radius: 10px;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+
+  /* Mostrar el menú en pantallas pequeñas cuando esté activo */
+  ${(props) => props.isOpen && `
+    display: flex;
+  `}
+`;

@@ -12,7 +12,7 @@ import 'react-vertical-timeline-component/style.min.css';
 export function Experience() {
 
     return (
-    <Main>
+    <Main id="experience">
       <Titles>Experience and  Education</Titles>
         
       <VerticalTimeline>

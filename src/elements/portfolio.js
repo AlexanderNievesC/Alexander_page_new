@@ -11,7 +11,7 @@ import getjob from '../assets/getjob.png'
 
 export function Portfolio() {
     return (
-    <Main>
+    <Main id="projects">
         <Title>My Projects</Title>
 
         <ZoneProject>
