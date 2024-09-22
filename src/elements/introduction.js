@@ -25,7 +25,7 @@ export function Introduction () {
                         <Button>Get my CV</Button> 
                     </a>             
                 </Intro>
-                <img src={lines} style={{width:'100%', opacity:'0.8'}} alt="Background Lines"/>
+                {/* <img src={lines} style={{width:'100%', opacity:'0.8'}} alt="Background Lines"/> */}
             </Main>
         </div>
     );

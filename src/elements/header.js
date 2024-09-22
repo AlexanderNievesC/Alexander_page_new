@@ -108,7 +108,7 @@ const TopMenu = styled.div`
     z-index: 9999;
 
     /* Initially, no shadow */
-
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
   /* Add shadow when the user scrolls */
   &.scrolled {

@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/Alexander_page_new/static/js/main.38da2ea9.chunk.js",
-    "main.js.map": "/Alexander_page_new/static/js/main.38da2ea9.chunk.js.map",
+    "main.js": "/Alexander_page_new/static/js/main.b00daac6.chunk.js",
+    "main.js.map": "/Alexander_page_new/static/js/main.b00daac6.chunk.js.map",
     "runtime-main.js": "/Alexander_page_new/static/js/runtime-main.638c28db.js",
     "runtime-main.js.map": "/Alexander_page_new/static/js/runtime-main.638c28db.js.map",
     "static/css/2.0e31c611.chunk.css": "/Alexander_page_new/static/css/2.0e31c611.chunk.css",
     "static/js/2.8f755d61.chunk.js": "/Alexander_page_new/static/js/2.8f755d61.chunk.js",
     "static/js/2.8f755d61.chunk.js.map": "/Alexander_page_new/static/js/2.8f755d61.chunk.js.map",
     "index.html": "/Alexander_page_new/index.html",
-    "precache-manifest.0b896f58f59f13659fac5ab38dcdca32.js": "/Alexander_page_new/precache-manifest.0b896f58f59f13659fac5ab38dcdca32.js",
+    "precache-manifest.8c00b7c8063f4d2555ff546980376891.js": "/Alexander_page_new/precache-manifest.8c00b7c8063f4d2555ff546980376891.js",
     "service-worker.js": "/Alexander_page_new/service-worker.js",
     "static/css/2.0e31c611.chunk.css.map": "/Alexander_page_new/static/css/2.0e31c611.chunk.css.map",
     "static/js/2.8f755d61.chunk.js.LICENSE.txt": "/Alexander_page_new/static/js/2.8f755d61.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.638c28db.js",
     "static/css/2.0e31c611.chunk.css",
     "static/js/2.8f755d61.chunk.js",
-    "static/js/main.38da2ea9.chunk.js"
+    "static/js/main.b00daac6.chunk.js"
   ]
 }

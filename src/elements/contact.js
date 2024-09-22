@@ -56,7 +56,7 @@ export function Contact() {
                 {messageSent && <SuccessMessage>Thank you! Your message was sent successfully.</SuccessMessage>}
             </ZoneForm>
 
-            <img src={programmer} style={{ width: '400px' }} />
+            <img src={programmer} style={{ width: '300px' }} />
         </ContactArea>
     </Main>
     );
@@ -78,7 +78,7 @@ const ZoneForm = styled.div`
     flex-wrap: wrap;
     background-color: ${colors.purple[40]};
     height: 450px;
-    width: 500px;
+    width: 350px;
     padding: 30px;
     gap: 20px;
     border-radius: 20px;
@@ -136,7 +136,7 @@ const Input = styled.input`
 const ContactArea = styled.div`
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 70px;
     justify-items: center;
     justify-content: center;
 `;
