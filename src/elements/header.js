@@ -110,12 +110,16 @@ const TopMenu = styled.div`
     /* Initially, no shadow */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
-  /* Add shadow when the user scrolls */
-  &.scrolled {
+    /* Add shadow when the user scrolls */
+    &.scrolled {
     background-color: ${colors.purple[10]};
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
   }
+
+  @media (min-width: 370px) {
+    padding:10px;
+    gap:10px;
+    }
 `
 
 const Logo = styled.div`
@@ -126,6 +130,11 @@ const Logo = styled.div`
     padding:20px;
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
     cursor:pointer;
+
+
+    @media (min-width: 370px) {
+    padding:10px;
+    }
 `
 
 const Subelement = styled.div`
