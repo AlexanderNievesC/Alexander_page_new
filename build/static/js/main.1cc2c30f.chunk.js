@@ -1,10 +1,10 @@
-(this["webpackJsonpmy-page"]=this["webpackJsonpmy-page"]||[]).push([[0],{19:function(e,t,n){e.exports=n.p+"static/media/keepable.f15a289c.png"},20:function(e,t,n){e.exports=n.p+"static/media/doable.af455554.png"},21:function(e,t,n){e.exports=n.p+"static/media/organizable.a86db350.png"},22:function(e,t,n){e.exports=n.p+"static/media/gitstats.2d52b372.png"},23:function(e,t,n){e.exports=n.p+"static/media/getjob.d704699d.png"},24:function(e,t,n){e.exports=n.p+"static/media/programmer.55726997.svg"},26:function(e,t,n){e.exports=n(44)},40:function(e,t,n){e.exports=n.p+"static/media/undulate.2acd93a3.svg"},44:function(e,t,n){"use strict";n.r(t);var a=n(6),l=n(1),r=n.n(l),i=n(16),o=n.n(i);const c='"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,\n    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif',s='"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",\n    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif',p={text:{xs:"\n      font-size: 0.75rem;\n      line-height: 1rem;\n      ",sm:"\n      font-size: 0.875rem;\n      line-height: 1.25rem;\n      ",md:"\n      font-size: 1rem;\n      line-height: 1.5rem;\n      ",lg:"\n      font-size: 1.125rem;\n      line-height: 1.75rem;\n      ",xl:"\n      font-size: 1.25rem;\n      line-height: 1.75rem;\n      "},head:{xs:"\n      font-size: 1.25rem;\n      line-height: 1.75rem;\n      ",sm:"\n      font-size: 1.5rem;\n      line-height: 2rem;\n      ",md:"\n      font-size: 1.875rem;\n      line-height: 2.25rem;\n      ",lg:"\n      font-size: 2.25rem;\n      line-height: 2.5rem;\n      ",xl:"\n      font-size: 3rem;\n      line-height: 3rem;\n      ",xxl:"\n      font-size: 3.75rem;\n      line-height: 3.75rem;\n      "}};for(const fe in p.text)p.text[fe]+=`\n    font-family: ${c};\n    `;for(const fe in p.head)p.head[fe]+=`\n    font-family: ${s};\n    font-weight: 600;\n    `;const m={5:"#E5E4E2",10:"#71797E",20:"#D3D3D3"},d={10:"#9370DB",20:"#DDA0DD",30:"#9400D3",40:"#9A7FD6"},u={10:"#48D1CC",20:"#2E8B89",30:"#7AD7F0"};var h=n(2);n(8);function x(){return r.a.createElement("div",null,r.a.createElement(b,null,r.a.createElement(E,null,r.a.createElement(f,null,"Hi, I'm Alexander "),r.a.createElement(g,null,"I develop full-stack web applications"),r.a.createElement("a",{href:"/Alexander_page_new/CV_Alexander_Nieves.pdf",target:"_blank"},r.a.createElement(w,null,"Get my CV")))))}const f=h.a.div`
+(this["webpackJsonpmy-page"]=this["webpackJsonpmy-page"]||[]).push([[0],{19:function(e,t,n){e.exports=n.p+"static/media/keepable.f15a289c.png"},20:function(e,t,n){e.exports=n.p+"static/media/doable.af455554.png"},21:function(e,t,n){e.exports=n.p+"static/media/organizable.a86db350.png"},22:function(e,t,n){e.exports=n.p+"static/media/gitstats.2d52b372.png"},23:function(e,t,n){e.exports=n.p+"static/media/getjob.d704699d.png"},24:function(e,t,n){e.exports=n.p+"static/media/programmer.55726997.svg"},26:function(e,t,n){e.exports=n(44)},40:function(e,t,n){e.exports=n.p+"static/media/undulate.2acd93a3.svg"},44:function(e,t,n){"use strict";n.r(t);var a=n(6),l=n(1),r=n.n(l),i=n(16),o=n.n(i);const c='"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,\n    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif',s='"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",\n    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif',p={text:{xs:"\n      font-size: 0.75rem;\n      line-height: 1rem;\n      ",sm:"\n      font-size: 0.875rem;\n      line-height: 1.25rem;\n      ",md:"\n      font-size: 1rem;\n      line-height: 1.5rem;\n      ",lg:"\n      font-size: 1.125rem;\n      line-height: 1.75rem;\n      ",xl:"\n      font-size: 1.25rem;\n      line-height: 1.75rem;\n      "},head:{xs:"\n      font-size: 1.25rem;\n      line-height: 1.75rem;\n      ",sm:"\n      font-size: 1.5rem;\n      line-height: 2rem;\n      ",md:"\n      font-size: 1.875rem;\n      line-height: 2.25rem;\n      ",lg:"\n      font-size: 2.25rem;\n      line-height: 2.5rem;\n      ",xl:"\n      font-size: 3rem;\n      line-height: 3rem;\n      ",xxl:"\n      font-size: 3.75rem;\n      line-height: 3.75rem;\n      "}};for(const ge in p.text)p.text[ge]+=`\n    font-family: ${c};\n    `;for(const ge in p.head)p.head[ge]+=`\n    font-family: ${s};\n    font-weight: 600;\n    `;const m={5:"#E5E4E2",10:"#71797E",20:"#D3D3D3"},d={10:"#9370DB",20:"#DDA0DD",30:"#9400D3",40:"#9A7FD6"},u={10:"#48D1CC",20:"#2E8B89",30:"#7AD7F0"};var h=n(2);n(8);function x(){return r.a.createElement("div",null,r.a.createElement(b,null,r.a.createElement(E,null,r.a.createElement(g,null,"Hi, I'm Alexander "),r.a.createElement(f,null,"I develop full-stack web applications"),r.a.createElement("a",{href:"/Alexander_page_new/CV_Alexander_Nieves.pdf",target:"_blank"},r.a.createElement(w,null,"Get my CV")))))}const g=h.a.div`
     font-family: ${c};
     font-size: 70px;
     font-weight: 700;
     color: white;
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
-`,g=h.a.div`
+`,f=h.a.div`
     color: white;
     font-size: 17px;
     font-weight: bold;
@@ -69,12 +69,16 @@
     /* Initially, no shadow */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
-  /* Add shadow when the user scrolls */
-  &.scrolled {
+    /* Add shadow when the user scrolls */
+    &.scrolled {
     background-color: ${d[10]};
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
   }
+
+  @media (min-width: 370px) {
+    padding:10px;
+    gap:10px;
+    }
 `,z=h.a.div`
     font-family:${c};
     font-weight:700;
@@ -83,6 +87,11 @@
     padding:20px;
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
     cursor:pointer;
+
+
+    @media (min-width: 370px) {
+    padding:10px;
+    }
 `,j=h.a.div`
     padding-top:5px;
     position: relative;
@@ -440,4 +449,4 @@
     color: ${m[900]};
   }
 `;o.a.createRoot(document.getElementById("root")).render(r.a.createElement(r.a.StrictMode,null,r.a.createElement(a.a,{styles:xe}),r.a.createElement(a.a,{styles:he}),r.a.createElement(ue,null)))},8:function(e,t,n){e.exports=n.p+"static/media/lines.09b691a0.svg"}},[[26,1,2]]]);
-//# sourceMappingURL=main.580fc0b3.chunk.js.map
+//# sourceMappingURL=main.1cc2c30f.chunk.js.map
